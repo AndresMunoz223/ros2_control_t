@@ -1,0 +1,9 @@
+<library path="agv_controllers">
+    <class name="agv_forward_controller/AgvForwardController"
+           type="agv_forward_controller::AgvForwardController"
+           base_class_type="controller_interface::ControllerInterface">
+           <description>
+                Simulation controller for the ROV.
+           </description>
+    </class>
+</library>
